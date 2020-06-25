@@ -1,0 +1,590 @@
+
+html,
+body {
+  height: 100%;
+  background-color: black;
+}
+
+/*  Navbar-------- */
+.navbar {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    background-color: 	 #b8d8ff;
+    padding: 15px;
+}
+.navbar-brand {
+text-transform: uppercase;
+font-size: 25px;
+color: white;
+}
+
+.navbar-brand:hover{
+  color: white;
+}
+.nav-link {
+  color:white;
+}
+
+.nav-link:hover {
+  color: black;
+}
+.navbar-toggler-icon{
+  color: white;
+}
+.navbar-toggler-icon:hover {
+  color: white;
+}
+.firstName {
+  background-color: tomato;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .navbar-brand br {
+    display: none;
+}
+.firstName {
+  background-color: transparent;
+}
+.navbar {
+  padding: 10px;
+}
+
+.navbar-brand {
+  background-color: transparent;
+}
+}
+@media only screen and (max-width: 840px) {
+.nav-link {
+  font-size: 15px;
+}
+}
+@media only screen and (max-width: 803px) {
+  .nav-link {
+    font-size: 15px;
+  }
+  }
+  
+/* -----end of home page nav bar */
+
+/* Section hello */ 
+
+.hello {
+    line-height: 1.35;
+    font-family:'IBM Plex Mono', monospace;
+    color: white;
+    box-sizing: border-box;
+    /* display: block !important; */
+    /*height: 80%;*/
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.intro1 {
+    font-family: 'IBM Plex Mono', monospace;
+    color:#b8d8ff;
+    box-sizing: border-box;
+    /*height: 80%;
+    display: block !important; */ 
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.intro2 {
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+    box-sizing: border-box;
+    font-size: 23px;
+    /* display: block !important;
+    height: 80%; */
+}
+
+
+.arrow {
+    color:rgba(159, 198, 245, 1);
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.arrow:hover {
+    color:white;
+}
+
+
+.bgA {
+    color: white;
+    margin-top: 0;
+    padding: 200px 0 100px;
+  }
+  
+  .style1 {
+    background-image: url("./quito\ pic.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 500px;
+    margin: 0;
+    margin-top: 0px;
+  }
+
+
+  
+  @media only screen and (max-width: 600px) {
+  .style1 {
+    margin-top: auto;
+  }
+  .hello {
+    font-size: 40px;
+  }
+   }
+
+
+    .expand-arrow {
+      color:#b8d8ff;
+      cursor: pointer;
+    }
+/* Sections after */
+
+/* BRIEF */ 
+.bgbrief {
+  background-color:#b8d8ff;
+}
+.brief {
+  color: black;
+  padding: 50px;
+  text-align: center;
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+/* Mindset and Approach */
+.approach {
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+
+}
+.ven {
+  margin: 0px;
+  padding-top: 30px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.captionven {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    text-align: center;
+   padding: 30px;
+    margin-top: 100px;
+    line-height: 1.9;
+    color:  white;
+    font-weight: 200;
+}
+.textmindset {
+   text-align: right;
+  }
+  .captionmindset {
+    color:  white;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    font-weight: 200;
+    padding: 30px;
+    font-size: 25px;
+    line-height: 1.9;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+  .mindset {
+    margin: 0px;
+    margin-top: 30px;
+    
+  }
+
+.colorword {
+    color: #b8d8ff;
+}
+@media only screen and (max-width: 600px) {
+    .textapproach {
+      margin-top: 0mm;
+      padding: 0px;
+    }
+    .captionven {
+        margin: 5px;
+        padding: 20px;
+        padding-top: 25px;
+        font-size: 20px;
+    }
+    .captionmindset {
+        margin: 5px;
+        padding-bottom: 25px;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .ven {
+        padding: 40px;
+    }
+    .mindset {
+      margin: 0px;
+      text-align: center;
+      padding-top: 30px;
+    }
+    
+  }
+
+ 
+
+/* About me */
+.welcome {
+  background-color: #b8d8ff;
+  padding: 30px;
+  color:black;
+  font-weight: 200;
+}
+    
+.mypic {
+    transform: rotate(90);
+}
+.caption {
+    position: relative;
+    width: 350px;
+      bottom: 100px;
+      background-color: #b8d8ff;
+      font-family: 'IBM Plex Sans', monospace;
+      font-size: .9rem;
+      font-weight: bold;
+      text-align: center; 
+      opacity: .7;
+      color: black;
+      padding-top: 0;
+      padding-bottom: 1rem;
+}
+
+section {
+    padding-top:  100px;
+    padding-bottom: 100px;
+    
+  }
+
+    @media only screen and (max-width: 600px) {
+      .picsofme  {
+       
+        margin-top: 250px;
+        padding-bottom: 200px;
+      }
+ 
+     }
+    
+/* Image Stacking */
+.image-stack::after {
+    content: ' ';
+    display: table;
+    clear: both;
+  }
+  
+  .image-stack__item--top {
+      float: left;
+      width: 50%;
+      margin-right: -100%;
+      padding-top: 15%;
+      position: relative;
+      z-index: 1;
+  }
+  
+  .image-stack__item--bottom {
+      float: right;
+      width: 58%;
+      margin-left: -100%;
+      padding-top: 40%;
+      position: relative;
+  }
+  
+  img {
+    width: 100%;
+  }
+
+/*.image-stack {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+  }
+
+.image-stack__item--top {
+    grid-column: 1 / span 6;
+    grid-row: 1; // must be on the same row as the other image
+    padding-top: 20%; // this pushes the image down, and keeps it proportional as it resizes
+    
+  }
+
+  img {
+      width: 100%;
+      display: block;
+  }
+  .image-stack__item--bottom {
+    grid-column: 6 / -1;
+    grid-row: 2; // make this image be on the same row
+    z-index: 1; // make this image render on top of the bottom
+   
+  } */
+
+/* Contact */ 
+
+#contactme {
+    color: #b8d8ff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.lead {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#ContactMe {
+  background-color: #b8d8ff;
+}
+
+@media only screen and (max-width: 600px) {
+.contact1 {
+  padding-top: 25px;
+  margin-top: 0px;
+  top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.bgabout {
+  padding-bottom: 0px;
+}
+#sticky-footer {
+  padding-top: 0px;
+  margin-top: 55px;
+}
+}
+
+
+
+/* Footer */
+  
+  #sticky-footer {
+    flex-shrink: none;
+  
+  }
+
+  .footer {
+    background-color: #b8d8ff;/*rgba(159, 198, 245, .8); */  
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-top: 0px !important;
+    
+  
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   
+  }
+  
+
+
+
+.titleresume {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  
+}
+
+@media only screen and (max-width: 1000px) {
+  .linetitle {
+    display: block;
+  }
+}
+
+
+/* CONTACT PAGE */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-twitter {
+  color: black;
+  padding-right: 50px;
+  }
+.fa-linkedin {
+  color: black;
+
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.sayhi {
+  color: black;
+  margin-top: 30px;
+  opacity: 1;
+  margin-bottom: 30px;
+}
+
+.city {
+  color: black;
+
+}
+
+
+/* Professional Experience */
+
+
+.workpro {
+  background-color: rgba(72, 96, 135, 0.5);
+  margin-bottom: 25px;
+}
+
+.maintitle {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  color:#b8d8ff;
+  letter-spacing: 7px;
+ 
+}
+.contentwork {
+  background-color: black; /*rgba(72, 96, 135, .3)*/
+  padding: 20px;
+}
+.titleresume {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 400;
+}
+.subtitle {
+  color: #a4cbfd;
+  line-height: 5px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 150;
+}
+.contentresume {
+  color: #b8d8ff;
+  font-weight: 200;
+  margin-right: 300px;
+}
+.contentgaz {
+  color: #b8d8ff;
+  font-weight: 200;
+  margin: 15px 250px;
+}
+@media only screen and (max-width: 990px) {
+.contentresume {
+  margin: 0px;
+}
+.contentgaz {
+  margin: 0px;
+}
+}
+
+.logoimg {
+  width: 100px;
+  height: auto;
+ object-fit: cover;
+ 
+
+}
+
+.Wdlogo {
+  margin: 25px 0px;
+}
+
+.columbiasquash {
+  width: 300px;
+  margin: 0px;
+  padding: 0px;
+}
+.miditech {
+  margin: px 0px;
+  width: 70px;
+}
+
+.SSquashLogo {
+  margin: 35px 0px;
+  width: 200px;
+}
+
+.mannat {
+  margin: 40px 0px;
+}
+
+.clubch {
+  width: 50px;
+  margin: 25px 0px;
+}
+
+/* GAZETTE */
+.style2 {
+  background-image: url("./gazette.gif"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 500px;
+  margin: 0;
+  margin-top: 0px;
+}
+.gazette {
+  font-family: 'IBM Plex Mono', monospace;
+  line-height: 1.35;
+  color: white;
+  background-color:rgba(0, 0, 0, .5);
+  box-sizing: border-box;
+  /* display: block !important; */
+  /*height: 80%;*/
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 200px;
+}
+
+  @media only screen and (max-width: 600px) {
+  .style2 {
+    margin-top: auto;
+  }
+  .gazette {
+    font-size: 40px;
+    padding: 0px;
+    margin-top: 200px;
+  }
+   }
+   .brief2 {
+    color: white;
+    padding: 30px;
+    text-align: center;
+    background-color:rgba(111, 139, 173, .6);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+
+  /* Content */
+.subcontent 
+
+.contenttitle {
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
